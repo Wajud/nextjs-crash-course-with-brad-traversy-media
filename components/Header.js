@@ -2,7 +2,6 @@ import React from "react";
 import headerStyles from "../src/styles/Header.module.css";
 
 const Header = () => {
-  const x = 6;
   return (
     <div>
       <h1 className={headerStyles.title}>
