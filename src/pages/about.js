@@ -1,12 +1,11 @@
 import React from "react";
 import Head from "next/head";
+import Meta from "../../components/Meta";
 
 const about = () => {
   return (
     <div>
-      <Head>
-        <title>About Us</title>
-      </Head>
+      <Meta title="About Us" />
       <h1>About Page</h1>
     </div>
   );

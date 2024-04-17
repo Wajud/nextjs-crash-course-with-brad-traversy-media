@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Meta from "../../../components/Meta";
 
 const article = ({ article }) => {
   //   const router = useRouter();
@@ -8,6 +9,7 @@ const article = ({ article }) => {
 
   return (
     <>
+      <Meta title={article.title} />
       <h1>{article.title}</h1>
       <br />
       <p>{article.body}</p>
